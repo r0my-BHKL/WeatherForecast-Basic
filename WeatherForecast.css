@@ -1,0 +1,97 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("Images/blue-sky-skyscape-background-concept-free-vector.jpg");
+    color:#fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 250px;
+    border-radius: 25px;
+    border: none;
+    font-size: 1em;
+    text-align: center;
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    background-color: #003e4a;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #f7f7f7;
+}
+
+.weather-info {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 300px;
+    margin-top: 20px;
+}
+
+#weatherInfo {
+    
+    margin-right: 20px;
+
+    color:#05414d;
+
+}
+
+#locationWeatherInfo {
+   
+    margin-left: 20px;
+    background-color: #004c5b; 
+}
+
+
+.weather-container {
+    display: flex;
+    justify-content: center;
+}
+
+.weather-info h2 {
+    margin: 0;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.weather-info p {
+    margin: 5px 0;
+    font-size: 1.2em;
+}
+
+.weather-icon {
+    width: 80px;
+    margin-top: 10px;
+}
